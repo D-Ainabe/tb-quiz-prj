@@ -509,7 +509,7 @@ function showHighScores() {
         console.log("hScores[i].score: ", hScores[i].score);
         console.log("hScores[i].initals: ", hScores[i].initials);
         //update here to add array values to the table.
-        i++;
+        i++; 
     }
 
     highScoresDiv.appendChild(table);
